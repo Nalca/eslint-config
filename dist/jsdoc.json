@@ -1,0 +1,73 @@
+{
+  "plugins": [
+    "eslint-plugin-tsdoc",
+    "jsdoc"
+  ],
+  "extends": [
+    "plugin:jsdoc/recommended"
+  ],
+  "settings": {
+    "jsdoc": {
+      "mode": "typescript"
+    }
+  },
+  "rules": {
+    "jsdoc/require-throws": "warn",
+    "tsdoc/syntax": "warn",
+    "jsdoc/no-multi-asterisks": [
+      "warn",
+      {
+        "allowWhitespace": true
+      }
+    ],
+    "jsdoc/require-jsdoc": [
+      "warn",
+      {
+        "require": {
+          "ArrowFunctionExpression": false,
+          "ClassDeclaration": false,
+          "ClassExpression": false,
+          "FunctionDeclaration": false,
+          "FunctionExpression": false,
+          "MethodDefinition": false
+        },
+        "contexts": [
+          "MethodDefinition",
+          "PropertyDefinition",
+          "ClassDeclaration",
+          "TSInterfaceDeclaration",
+          "TSTypeAliasDeclaration",
+          "ExportNamedDeclaration",
+          "TSEnumDeclaration",
+          "TSEnumMember"
+        ]
+      }
+    ],
+    "jsdoc/check-tag-names": [
+      "warn",
+      {
+        "definedTags": [
+          "remarks"
+        ]
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": "*.ts",
+      "rules": {
+        "jsdoc/require-param-type": "off",
+        "jsdoc/require-returns-type": "off",
+        "jsdoc/valid-types": "off"
+      }
+    },
+    {
+      "files": "*.vue",
+      "rules": {
+        "jsdoc/require-throws": "off",
+        "jsdoc/require-returns": "off",
+        "jsdoc/require-param": "off"
+      }
+    }
+  ]
+}

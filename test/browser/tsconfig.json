@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "DOM",
+      "ES2018"
+    ],
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "outDir": "dist/",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "strict": true,
+    "target": "ES2018"
+  },
+  "include": [
+    "vue/",
+    "@types/",
+    "log.js",
+    "index.ts"
+  ]
+}
