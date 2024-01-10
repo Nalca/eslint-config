@@ -1,5 +1,5 @@
 {
-  "name": "@alexandre-f/eslint-plugin",
+  "name": "@nalca/eslint-plugin",
   "version": "2.5.0",
   "private": true,
   "description": "Plusieurs jeux de règles eslint selon la cible désirée, présents dans un seul endroit.",

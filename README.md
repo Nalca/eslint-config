@@ -1,4 +1,4 @@
-# Sur le plugin 'eslint-plugin-alexandre-f'
+# Sur le plugin '@nalca/eslint-plugin'
 
 ## Description
 
@@ -41,7 +41,7 @@ Dans un fichier *.eslintrc:*
 {
   "extends": [
     // L'une des règles fournies par ce module
-    "plugin:@alexandre-f/typescript-type-checked"
+    "plugin:@nalca/typescript-type-checked"
   ],
   "parserOptions": {
     "sourceType": "module",
@@ -51,7 +51,7 @@ Dans un fichier *.eslintrc:*
     "project": ["tsconfig.json", "tests/tsconfig.json"]
   },
   // Permet d'utiliser ce module
-  "plugins": ["@alexandre-f"]
+  "plugins": ["@nalca"]
 }
 ```
 
