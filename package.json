@@ -30,7 +30,7 @@
     "test:typescript-vue": "eslint -c ./configs/typescript-vue.js test/browser"
   },
   "devDependencies": {
-    "@types/node": "^20.10.8",
+    "@types/node": "^20.11.0",
     "@typescript-eslint/eslint-plugin": "^6.18.1",
     "@typescript-eslint/parser": "^6.18.1",
     "eslint": "^8.56.0",
@@ -40,19 +40,19 @@
     "eslint-plugin-sonarjs": "^0.23",
     "eslint-plugin-tsdoc": "^0.2.17",
     "eslint-plugin-unicorn": "^50.0",
-    "eslint-plugin-vue": "^9.19.2",
+    "eslint-plugin-vue": "^9.20.0",
     "typescript": "^5.3.3"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.60.0",
-    "@typescript-eslint/parser": "^5.60.0",
-    "eslint": "^8.43.0",
-    "eslint-plugin-jsdoc": "^46.2",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-sonarjs": "^0.19",
+    "@typescript-eslint/eslint-plugin": "^6.18",
+    "@typescript-eslint/parser": "^6.18",
+    "eslint": "^8.56",
+    "eslint-plugin-jsdoc": "^48.0",
+    "eslint-plugin-promise": "^6.1",
+    "eslint-plugin-sonarjs": "^0.23",
     "eslint-plugin-tsdoc": "^0.2.17",
-    "eslint-plugin-unicorn": "^47.0",
-    "eslint-plugin-vue": "^9.15.1"
+    "eslint-plugin-unicorn": "^50.0",
+    "eslint-plugin-vue": "^9.20"
   },
   "peerDependenciesMeta": {
     "@typescript-eslint/eslint-plugin": {
